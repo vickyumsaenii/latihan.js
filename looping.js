@@ -54,9 +54,11 @@
 // }
 
 var input = 5;
-var input + "" ;
-for (var j = 0; j < i + 1; j++) {
+var input = "" ;
+
+for (var i = 0; i < i + 1; j++) {
   temp += String(j+1)
 }
 console.log(temp)
-temp
+temp = ""
+}
