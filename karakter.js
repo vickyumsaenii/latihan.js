@@ -15,12 +15,12 @@
 
 if (Power > 100) {
   console.log ("karakter = Expert")
-} else if (Power > 70 && Power <= 100) ; {
-  console.log ("karakter = Pro");
-} else if (Power > 50 && Power <= 70); {
+} else if (Power > 70 && Power <= 100)  {
+  console.log ("karakter = Pro")
+} else if (Power > 50 && Power <= 70) {
   console.log ("karakter = Normal") ; 
-} else if (Power > 30 && Power <= 50); {
-   console.log ("karakter = Basic"):
-} else if (Power > 30); {
+} else if (Power > 30 && Power <= 50) {
+   console.log ("karakter = Basic")
+} else if (Power > 30) {
   console.log ("karakter = Beginner") ;
 }
