@@ -41,14 +41,22 @@
 // console.log('jumlah a= ' + countA);
 // console.log('jumlah b= ' + countB);
 
-var kalimat = 'saya mau buka bersama teman';
+// var kalimat = 'saya mau buka bersama teman';
 
-for (var i = 0; i < kalimat.length; i++) {
-  if (kalimat[1] !== '') {
-    temp += kalimat[1];
-    // console.log(kalimat[i])
-  } else {
-    console.log(temp);
-    temp = '';
-  }
+// for (var i = 0; i < kalimat.length; i++) {
+//   if (kalimat[1] !== '') {
+//     temp += kalimat[1];
+//     // console.log(kalimat[i])
+//   } else {
+//     console.log(temp);
+//     temp = '';
+//   }
+// }
+
+var input = 5;
+var input + "" ;
+for (var j = 0; j < i + 1; j++) {
+  temp += String(j+1)
 }
+console.log(temp)
+temp
