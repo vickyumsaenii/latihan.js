@@ -1,8 +1,8 @@
-// Looping
+Looping;
 
-// for (var i = 1; i <= 10; i += 1) {
-//     console.log(i);
-// }
+for (var i = 1; i <= 10; i += 1) {
+  console.log(i);
+}
 
 /**
  * STUDY CASE 1
@@ -12,20 +12,19 @@
  * Result:
  * BuKbEr
  */
-// var str = "bukber";
-// var temp = "";
+var str = 'bukber';
+var temp = '';
 
-// for (var i = 0; i < str.length; i++) {
-//     if (i % 2 === 0) {
-//         // console.log(str[i].toUpperCase());
-//         temp += str[i].toUpperCase()
-//     } else {
-//         temp += str[i]
-//         // console.log(str[i])
-//     }
-
-// }
-// console.log(temp)
+for (var i = 0; i < str.length; i++) {
+  if (i % 2 === 0) {
+    console.log(str[i].toUpperCase());
+    temp += str[i].toUpperCase();
+  } else {
+    temp += str[i];
+    console.log(str[i]);
+  }
+}
+console.log(temp);
 
 /**
  * STUDY CASE 2
@@ -37,17 +36,17 @@
  * Jumlah b = 5
  */
 
-var kode = 'abaabbabab';
-var countA = 0;
-var countB = 0;
+// var kode = 'abaabbabab';
+// var countA = 0;
+// var countB = 0;
 
-for (var i = 0; i < kode.length; i++) {
-  if (kode[i] === 'a') {
-    countA++;
-  } else if (kode[i] === 'b') {
-    countB++;
-  }
-}
+// for (var i = 0; i < kode.length; i++) {
+//   if (kode[i] === 'a') {
+//     countA++;
+//   } else if (kode[i] === 'b') {
+//     countB++;
+//   }
+// }
 // console.log("Jumlah a = " + countA);
 // console.log("Jumlah b = " + countB);
 
@@ -115,13 +114,13 @@ for (var i = 0; i < kode.length; i++) {
  * 12345
  */
 
-var input = 5;
-var temp = '';
+// var input = 5;
+// var temp = '';
 
-for (var i = 0; i < input; i++) {
-  for (var j = 0; j < i + 1; j++) {
-    temp += String(j + 1);
-  }
-  console.log(temp);
-  temp = '';
-}
+// for (var i = 0; i < input; i++) {
+//   for (var j = 0; j < i + 1; j++) {
+//     temp += String(j + 1);
+//   }
+//   console.log(temp);
+//   temp = '';
+// }
